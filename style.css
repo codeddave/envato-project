@@ -73,8 +73,8 @@ body {
 
 .tom-row {
   margin-top: 124px;
-  margin-left: 80px;
-  margin-right: 100px;
+  margin-left: 124px;
+  margin-right: 124px;
 }
 .hello-fr {
   font-size: 20px;
@@ -108,7 +108,9 @@ body {
   height: 503px;
 }
 .skills {
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 84px;
+  margin-right: 97px;
 }
 
 .skills img {
@@ -117,9 +119,13 @@ body {
   height: 70px;
 }
 .skill-wrap {
-  width: 150px;
+  width: 170px;
 }
-
+.skill-wrap p {
+  line-height: 21px;
+  font-weight: bold;
+  font-size: 18px;
+}
 .skills-list {
   display: flex;
   flex: wrap;
@@ -130,7 +136,37 @@ body {
   font-size: 18px;
   margin-right: 100px;
 }
+.recent {
+  color: #c280ff;
+}
+.photo {
+  font-size: 40px;
+}
+.gallery-container {
+  margin-left: 124px;
+  margin-right: 124px;
+  margin-top: 273px;
+}
+.gallery1,
+.gallery2 {
+  display: flex;
+  flex: wrap;
+}
+.gallery-col1 {
+  flex-direction: column;
+}
+.gallery-col1 img {
+  width: 300px;
+  height: 278px;
+}
+.gallery2 img {
+  width: 650px;
+}
 
+.rec-11 {
+  width: 544px;
+  height: 560px;
+}
 @media (max-width: 768px) {
   .tom-row {
     margin: 10px auto;
