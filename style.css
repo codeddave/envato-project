@@ -52,6 +52,7 @@ body {
   width: 225px;
   height: 52.53px;
   margin-top: 20px;
+  border-color: #c280ff;
 
   color: #c280ff;
   font-weight: bold;
@@ -79,9 +80,11 @@ body {
 .hello-fr {
   font-size: 20px;
   color: #c280ff;
+  font-weight: bold;
 }
 .tom-name {
   font-size: 40px;
+  font-weight: bold;
 }
 .tom-info {
   font-size: 20px;
@@ -163,7 +166,13 @@ body {
   height: 278px;
 }
 .gallery2 img {
-  width: 650px;
+  width: 584px;
+  height: 580px;
+}
+.rec-11 {
+  width: 544px;
+  height: 560px;
+  margin-left: -270px !important;
 }
 .gallery3 img {
   width: 280px;
@@ -182,10 +191,7 @@ body {
 .my-journey-text {
   margin-top: 100px;
 }
-.rec-11 {
-  width: 544px;
-  height: 560px;
-}
+
 .neon {
   font-size: 25px;
 }
@@ -282,14 +288,140 @@ textarea {
 .form-social li {
   list-style: none;
 }
+.footer {
+  padding-top: 49px;
+  height: 131px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list {
+  display: flex;
+}
+
+.footer-list li {
+  list-style: none;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.footer p {
+  font-size: 20px;
+  margin-right: 40px;
+}
 @media (max-width: 768px) {
+  .hero-bag {
+    height: 332px;
+  }
+  .hero-text {
+    margin-left: 36px;
+    width: 124px;
+    margin-top: 50px;
+  }
+  .hero-text h1 {
+    font-size: 20px;
+  }
+  .social-icons {
+    margin-top: 50px;
+    width: 50px;
+  }
+  .hello-fr {
+    font-size: 12px;
+  }
+  .tom-name {
+    font-size: 20px;
+  }
+  .hero-button {
+    width: 99px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-top: 0;
+    padding-right: 0;
+    margin-top: 10px;
+  }
+  .social-icons img {
+    width: 12px;
+    height: 12px;
+  }
   .tom-row {
     margin: 10px auto;
     justify-content: center;
   }
+  .tom-info {
+    margin-right: 0px;
+  }
+  .tom-info p {
+    font-size: 12px;
+  }
+  .purp {
+    width: 282px;
+    height: 287px;
+  }
+  .purp-tom {
+    width: 335px;
+    height: 340px;
+  }
   .skills {
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .skill-wrap {
+    width: 90px;
+  }
+  .skill-wrap p {
+    font-size: 12px;
+  }
+  .skills img {
+    margin-top: 50px;
+    width: 40px;
+    height: 25px;
+  }
+  .recent {
+    font-size: 12px;
+  }
+  .gallery-container {
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+
+  .gallery-col1 img {
+    width: 84.56px;
+    height: 77.52px;
+  }
+  .rec-11 {
+    width: 153.34px;
+    height: 161.74px;
+    margin-left: -50px !important;
+    margin-bottom: 8px !important;
+    margin-right: 8px !important;
+  }
+  .gallery1 {
+    margin: auto;
+    margin-bottom: 8px !important;
+  }
+  .rec-9,
+  .gallery-col1 img,
+  .gallery3,
+  .gallery3 img,
+  .gallery1 {
+    margin-bottom: 8px !important;
+  }
+  .gallery1 {
+    margin-bottom: 8px !important;
+  }
+
+  .gallery2 img {
+    width: 164.62px;
+    height: 161.74px;
+    margin-right: 8px !important;
+  }
+  .gallery3 img {
+    width: 78.93px;
+    height: 67.48px;
+    margin-right: 8px !important;
+  }
+  .gallery3 {
+    margin-top: 8px !important;
   }
 }
