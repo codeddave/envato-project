@@ -138,6 +138,8 @@ body {
 }
 .recent {
   color: #c280ff;
+  font-size: 20px;
+  font-weight: bold;
 }
 .photo {
   font-size: 40px;
@@ -148,7 +150,8 @@ body {
   margin-top: 273px;
 }
 .gallery1,
-.gallery2 {
+.gallery2,
+.gallery3 {
   display: flex;
   flex: wrap;
 }
@@ -162,14 +165,50 @@ body {
 .gallery2 img {
   width: 650px;
 }
-
+.gallery3 img {
+  width: 280px;
+  height: 242px;
+}
+.plus {
+  margin-top: ;
+}
+.my-journey {
+  margin-left: 124px;
+  margin-right: 124px;
+  margin-top: 100px;
+}
+.rec37 {
+  width: 489px;
+  height: 586px;
+}
+.my-journey-text {
+  margin-top: 100px;
+}
 .rec-11 {
   width: 544px;
   height: 560px;
 }
+.neon {
+  font-size: 25px;
+}
+.form-wrap {
+  width: 1440px;
+  height: 954px;
+  margin-top: 90px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(194, 128, 255, 0.4),
+      rgba(194, 128, 255, 0.4)
+    ),
+    url(img/Rectangle26.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media (max-width: 768px) {
   .tom-row {
     margin: 10px auto;
+    justify-content: center;
   }
   .skills {
     justify-content: center;
