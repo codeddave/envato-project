@@ -169,9 +169,7 @@ body {
   width: 280px;
   height: 242px;
 }
-.plus {
-  margin-top: ;
-}
+
 .my-journey {
   margin-left: 124px;
   margin-right: 124px;
@@ -192,9 +190,11 @@ body {
   font-size: 25px;
 }
 .form-wrap {
-  width: 1440px;
+  width: 100%;
   height: 954px;
   margin-top: 90px;
+  padding-top: 90px;
+  padding-left: 124px;
 
   background: linear-gradient(
       0deg,
@@ -204,6 +204,83 @@ body {
     url(img/Rectangle26.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.form-box {
+  width: 1192px;
+  padding-left: 60px;
+  padding-top: 50px;
+
+  height: 775px;
+  background: rgba(5, 3, 21, 0.9);
+  justify-content: space-between;
+}
+.contactme {
+  font-size: 40px;
+  font-weight: bold;
+}
+.trans input,
+textarea {
+  background-color: transparent !important;
+  border: 0 !important;
+  padding-bottom: 28px !important;
+  border-bottom: 1px white solid !important ;
+  border-radius: 0;
+}
+.trans textarea {
+  height: 250px;
+}
+
+.trans input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+.coll input {
+  width: 230px;
+}
+.subject-row {
+  margin-top: 80px !important;
+}
+.subject-row input,
+textarea {
+  width: 572px !important;
+}
+.info-row {
+  padding-top: 100px;
+}
+.info-detail {
+  font-size: 21px;
+}
+.info-data {
+  font-size: 25px;
+}
+.phone {
+  display: flex;
+  width: 405px;
+  margin-bottom: 20px;
+}
+.email-wrap {
+  margin-top: 70px;
+}
+.emailicon {
+  width: 33px;
+  height: 33px;
+}
+.send-btn {
+  margin-top: 52px;
+  width: 134px;
+  height: 53px;
+  background-color: #c280ff;
+}
+.form-social {
+  display: flex;
+  width: 112px;
+  height: 24px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 160px;
+}
+.form-social li {
+  list-style: none;
 }
 @media (max-width: 768px) {
   .tom-row {
